@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block header %}
+<!-- Masthead-->
+
+    <div class="container">
+        <div class="masthead-subheading">Equipo Liceo Industrial</div>
+        <div class="masthead-heading text-uppercase"></div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#servicios">Nuestros Trabajos</a>
+    </div>
+
+{% endblock  %}
+
+
+
+{% block principal %}
+
+
+<!-- servicios-->
+
+{% include "servicios.html" %}
+<!-- nuestro stack-->
+
+{% include "stack.html" %}
+<!-- trabajos -->
+{% include "trabajos.html" %}
+
+
+
+{% endblock %}
